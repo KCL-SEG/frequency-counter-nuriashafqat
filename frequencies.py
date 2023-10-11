@@ -3,12 +3,12 @@
 
 def frequencies(items):
     frequencies = {}
-    for item in items
-    key = str(item)
-    if key in frequencies:
-        frequences[key] +=1
-    else:
-        frequencies[key] = 1
+    for item in items:
+        key = str(item)
+        if key in frequencies:
+            frequences[key] +=1
+        else:
+            frequencies[key] = 1
     return frequencies
 
 list = [1, 2, "Hello", 2]
