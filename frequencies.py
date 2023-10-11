@@ -3,7 +3,7 @@
 
 def frequencies(items):
     frequencies = {}
-    for item in range items
+    for item in items
     key = str(item)
     if key in frequencies:
         frequences[key] +=1
